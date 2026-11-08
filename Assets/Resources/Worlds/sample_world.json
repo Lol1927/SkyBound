@@ -1,0 +1,93 @@
+{
+  "worldName": "Skylark Reach",
+  "seed": 12047,
+  "layout": "scattered",
+  "cloudDensity": 0.55,
+  "skyMood": "noon",
+  "palette": {
+    "grass": "#3D9E42",
+    "rock": "#665C52",
+    "snow": "#E6F0FF",
+    "water": "#05295C",
+    "skyTop": "#6BA3FF",
+    "skyHorizon": "#669EE0",
+    "fog": "#9ECCF2",
+    "accent": "#73F2FF"
+  },
+  "treeDensity": 0.75,
+  "rockDensity": 0.45,
+  "floatingRockDensity": 0.6,
+  "coPilotIntro": "Five islands on the chart. Three of them are hiding a landmark.",
+  "islands": [
+    {
+      "biome": "forest",
+      "size": "large",
+      "hasLandmark": true,
+      "landmarkType": "ruins",
+      "landmarkName": "Mossgate",
+      "landmarkHint": "A broken stone arch rises above the canopy.",
+      "landmarkLore": "Pilots used the arch as a waypoint when the clouds closed in.",
+      "terrainStyle": "mountainous",
+      "heightScale": 1.15,
+      "roughness": 0.7,
+      "verticalSpread": 0.8,
+      "features": ["terraces", "spires"]
+    },
+    {
+      "biome": "snow",
+      "size": "medium",
+      "hasLandmark": false,
+      "landmarkType": "none",
+      "landmarkName": "",
+      "landmarkHint": "",
+      "landmarkLore": "",
+      "terrainStyle": "rolling",
+      "heightScale": 0.9,
+      "roughness": 0.4,
+      "verticalSpread": 1.0,
+      "features": ["lake"]
+    },
+    {
+      "biome": "volcanic",
+      "size": "small",
+      "hasLandmark": true,
+      "landmarkType": "tower",
+      "landmarkName": "Cinder Watch",
+      "landmarkHint": "Look for a black tower on the ridge.",
+      "landmarkLore": "The watch kept a fire burning so ships could find the caldera.",
+      "terrainStyle": "canyon",
+      "heightScale": 1.4,
+      "roughness": 0.85,
+      "verticalSpread": 1.2,
+      "features": ["arch"]
+    },
+    {
+      "biome": "forest",
+      "size": "medium",
+      "hasLandmark": false,
+      "landmarkType": "none",
+      "landmarkName": "",
+      "landmarkHint": "",
+      "landmarkLore": "",
+      "terrainStyle": "plateau",
+      "heightScale": 0.8,
+      "roughness": 0.35,
+      "verticalSpread": 0.6,
+      "features": ["terraces", "lake"]
+    },
+    {
+      "biome": "snow",
+      "size": "large",
+      "hasLandmark": true,
+      "landmarkType": "crystal",
+      "landmarkName": "Pale Heart",
+      "landmarkHint": "A blue crystal glints on the high snow.",
+      "landmarkLore": "The crystal hums when the wind crosses the peak.",
+      "terrainStyle": "mountainous",
+      "heightScale": 1.6,
+      "roughness": 0.9,
+      "verticalSpread": 1.3,
+      "features": ["arch", "spires"]
+    }
+  ]
+}

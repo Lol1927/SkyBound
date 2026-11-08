@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45749b46608a09548a16aedbd3b3f6a5, type: 3}
+  m_Name: VegetationCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::VegetationCatalog
+  broadleafA: {fileID: 3603880355839619049, guid: 8af6716fcece78a4494bc24bbee70401, type: 3}
+  broadleafB: {fileID: 6281346168331048365, guid: 315f92d2f5924c34a849a138b0fb320f, type: 3}
+  pineA: {fileID: 2929714173918115490, guid: 5d1854d21dabfea4b80944b5b950460b, type: 3}
+  pineB: {fileID: 2326321547497665930, guid: 9860070318895c646b7e42891bd30274, type: 3}
+  snowPineA: {fileID: 1761413359637904653, guid: 0bce195ccc1508a49ae9c9c8d66cd3d3, type: 3}
+  snowPineB: {fileID: 3100109957137579084, guid: 1145452c16f9c3b469f44fe39cbd97d3, type: 3}
+  deadA: {fileID: 2154965620998813143, guid: cc89dee38375cd24bbdd36e33125add8, type: 3}
+  deadB: {fileID: 7302590506736268725, guid: e9196c3ebbe279d4da6a581588534cc4, type: 3}
+  rockA: {fileID: 5855405473303351904, guid: 6acf809165be15e45b3d67cbf48a69ba, type: 3}
+  rockB: {fileID: 5557112403694379235, guid: d77a2c18189b9fb43bd1d14ebcd9ab4b, type: 3}
+  rockC: {fileID: 4755696167063654857, guid: 9a7d69131003e4e4a82edcd75f7227ad, type: 3}
+  rockD: {fileID: 766211272343021629, guid: a4874d3e987860f44aa414514284a163, type: 3}

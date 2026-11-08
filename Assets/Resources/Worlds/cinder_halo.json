@@ -1,0 +1,93 @@
+{
+  "worldName": "Cinder Halo",
+  "seed": 44102,
+  "layout": "ring",
+  "cloudDensity": 0.82,
+  "skyMood": "sunset",
+  "palette": {
+    "grass": "#C46A3A",
+    "rock": "#5A4038",
+    "snow": "#E7D2C4",
+    "water": "#6A2E2A",
+    "skyTop": "#E36A3A",
+    "skyHorizon": "#F2B07A",
+    "fog": "#E8B89A",
+    "accent": "#FF7A3C"
+  },
+  "treeDensity": 0.25,
+  "rockDensity": 0.9,
+  "floatingRockDensity": 0.8,
+  "coPilotIntro": "Warm stone ahead, and a ring of islands under high clouds.",
+  "islands": [
+    {
+      "biome": "volcanic",
+      "size": "large",
+      "hasLandmark": true,
+      "landmarkType": "tower",
+      "landmarkName": "Ember Watch",
+      "landmarkHint": "A dark tower crowns the red ridge.",
+      "landmarkLore": "Keepers lit the tower so night flights could find home.",
+      "terrainStyle": "mountainous",
+      "heightScale": 1.7,
+      "roughness": 0.95,
+      "verticalSpread": 1.4,
+      "features": ["spires"]
+    },
+    {
+      "biome": "volcanic",
+      "size": "medium",
+      "hasLandmark": false,
+      "landmarkType": "none",
+      "landmarkName": "",
+      "landmarkHint": "",
+      "landmarkLore": "",
+      "terrainStyle": "canyon",
+      "heightScale": 1.3,
+      "roughness": 0.8,
+      "verticalSpread": 1.2,
+      "features": ["arch"]
+    },
+    {
+      "biome": "snow",
+      "size": "medium",
+      "hasLandmark": true,
+      "landmarkType": "crystal",
+      "landmarkName": "Ash Pearl",
+      "landmarkHint": "A crystal glows against the dark snow.",
+      "landmarkLore": "The pearl stays cool even when the ridge is warm.",
+      "terrainStyle": "plateau",
+      "heightScale": 1.1,
+      "roughness": 0.55,
+      "verticalSpread": 0.9,
+      "features": ["spires"]
+    },
+    {
+      "biome": "forest",
+      "size": "small",
+      "hasLandmark": false,
+      "landmarkType": "none",
+      "landmarkName": "",
+      "landmarkHint": "",
+      "landmarkLore": "",
+      "terrainStyle": "rolling",
+      "heightScale": 0.7,
+      "roughness": 0.4,
+      "verticalSpread": 0.7,
+      "features": ["lake"]
+    },
+    {
+      "biome": "volcanic",
+      "size": "small",
+      "hasLandmark": true,
+      "landmarkType": "ruins",
+      "landmarkName": "Kiln Arches",
+      "landmarkHint": "Stone arches lean over the old kiln ruins.",
+      "landmarkLore": "Potters fired clay here when the island was still green.",
+      "terrainStyle": "canyon",
+      "heightScale": 1.5,
+      "roughness": 0.9,
+      "verticalSpread": 1.35,
+      "features": ["arch"]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "geminiApiKey": "",
+  "geminiModel": "gemini-3.8-flash",
+  "fishAudioApiKey": "",
+  "fishAudioVoiceId": "",
+  "fishAudioModel": "s1"
+}

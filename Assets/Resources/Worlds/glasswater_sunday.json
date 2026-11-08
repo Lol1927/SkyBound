@@ -1,0 +1,79 @@
+{
+  "worldName": "Glasswater Sunday",
+  "seed": 90411,
+  "layout": "central",
+  "cloudDensity": 0.18,
+  "skyMood": "sunrise",
+  "palette": {
+    "grass": "#8FCB7A",
+    "rock": "#D9C7A8",
+    "snow": "#F4FBFF",
+    "water": "#7ED0E8",
+    "skyTop": "#F6C9A0",
+    "skyHorizon": "#FFF1D6",
+    "fog": "#F8E2C8",
+    "accent": "#FFE08A"
+  },
+  "treeDensity": 0.55,
+  "rockDensity": 0.25,
+  "floatingRockDensity": 0.2,
+  "coPilotIntro": "Easy light today. The big island sits in the middle of a quiet sky.",
+  "islands": [
+    {
+      "biome": "forest",
+      "size": "large",
+      "hasLandmark": true,
+      "landmarkType": "crystal",
+      "landmarkName": "Sunwell",
+      "landmarkHint": "A pale crystal sits in the open meadow.",
+      "landmarkLore": "Locals say it warms your hands on a cold morning.",
+      "terrainStyle": "rolling",
+      "heightScale": 0.85,
+      "roughness": 0.35,
+      "verticalSpread": 0.7,
+      "features": ["lake"]
+    },
+    {
+      "biome": "forest",
+      "size": "medium",
+      "hasLandmark": false,
+      "landmarkType": "none",
+      "landmarkName": "",
+      "landmarkHint": "",
+      "landmarkLore": "",
+      "terrainStyle": "plateau",
+      "heightScale": 0.7,
+      "roughness": 0.25,
+      "verticalSpread": 0.5,
+      "features": ["terraces"]
+    },
+    {
+      "biome": "snow",
+      "size": "small",
+      "hasLandmark": true,
+      "landmarkType": "tower",
+      "landmarkName": "Quiet Bell",
+      "landmarkHint": "A white tower stands on the snowy shelf.",
+      "landmarkLore": "The bell only rings when the wind is kind.",
+      "terrainStyle": "rolling",
+      "heightScale": 1.05,
+      "roughness": 0.4,
+      "verticalSpread": 0.8,
+      "features": []
+    },
+    {
+      "biome": "forest",
+      "size": "medium",
+      "hasLandmark": true,
+      "landmarkType": "ruins",
+      "landmarkName": "Picnic Stones",
+      "landmarkHint": "Low ruins circle a bright little lake.",
+      "landmarkLore": "Travelers still leave smooth stones on the old wall.",
+      "terrainStyle": "rolling",
+      "heightScale": 0.75,
+      "roughness": 0.3,
+      "verticalSpread": 0.6,
+      "features": ["lake", "terraces"]
+    }
+  ]
+}
